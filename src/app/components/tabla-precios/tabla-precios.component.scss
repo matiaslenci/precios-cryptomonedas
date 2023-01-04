@@ -1,0 +1,56 @@
+/* Structure */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+//Filtro
+.example-form-field {
+  width: 200px;
+}
+
+#icon{
+  height: 13px; 
+}
+//Tabla
+
+table {
+  width: 720px;
+
+  img {
+    width: 2rem;
+  }
+}
+
+.symbol {
+  line-height: 24px;
+
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.name {
+  font-weight: lighter;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.numeros {
+  font-weight: 500;
+}
+
+//ngClass
+.verde {
+  color: #03a66d;
+  font-weight: 500;
+}
+.rojo {
+  font-weight: 500;
+  color: #cf304a;
+}
