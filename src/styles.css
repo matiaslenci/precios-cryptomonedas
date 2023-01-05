@@ -1,7 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-//? import font
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
-
 html,
 body {
   height: 100%;
@@ -13,3 +11,4 @@ body {
 .font1 {
   font-family: "Inter", sans-serif;
 }
+/*# sourceMappingURL=styles.css.map */
