@@ -18,6 +18,7 @@ import { HomePageComponentComponent } from './pages/home-page-component/home-pag
 import { NotFoundPageComponentComponent } from './pages/not-found-page-component/not-found-page-component.component';
 import { MaterialModule } from './modules/material/material.module';
 import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -28,6 +29,7 @@ import { HeaderComponent } from './components/header/header.component';
     HomePageComponentComponent,
     NotFoundPageComponentComponent,
     HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
