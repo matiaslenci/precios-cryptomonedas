@@ -1,6 +1,22 @@
-
-
 .container {
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.container-titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 720px;
+  border-bottom: 4px solid #171738;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  padding: 0.5rem 0rem;
+  color: #7878b4;
 }

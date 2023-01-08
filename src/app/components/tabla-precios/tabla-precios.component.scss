@@ -4,25 +4,34 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
+  padding: 0px 360px;
 }
-
 
 //Filtro
 .example-form-field {
   width: 200px;
 }
 
-#icon{
-  height: 13px; 
+#icon {
+  height: 13px;
 }
 //Tabla
 
 table {
   width: 720px;
+  margin-bottom: 10rem;
+  background-color: #ffffff;
 
   img {
     width: 2rem;
   }
+}
+
+.tabla-header {
+  font-weight: 400;
+  color: black;
+  background-color: #e6e6e6 !important;
 }
 
 .symbol {

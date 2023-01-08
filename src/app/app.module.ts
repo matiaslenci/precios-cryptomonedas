@@ -27,7 +27,7 @@ import { HeaderComponent } from './components/header/header.component';
     TablaPreciosComponent,
     HomePageComponentComponent,
     NotFoundPageComponentComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

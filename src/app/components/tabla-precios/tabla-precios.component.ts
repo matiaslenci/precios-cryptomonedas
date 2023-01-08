@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ICoins } from 'src/app/models/coins.interface';
-import { MatTableDataSource } from '@angular/material/table';
+//import { MatTableDataSource } from '@angular/material/table';
 
 import { TablaPreciosService } from 'src/app/services/tabla-precios.service';
 
@@ -9,7 +9,7 @@ import { TablaPreciosService } from 'src/app/services/tabla-precios.service';
   templateUrl: './tabla-precios.component.html',
   styleUrls: ['./tabla-precios.component.scss'],
 })
-export class TablaPreciosComponent {
+export class TablaPreciosComponent implements OnInit  {
   //? Tabla
   dataSource: ICoins[] = [];
   displayedColumns: string[] = [
@@ -35,10 +35,12 @@ export class TablaPreciosComponent {
       next: (response: ICoins[]) => {
         this.dataSource = response;
         this.dataFilter = response;
+
+        
       },
       error: (error: any) => console.error(`${error}`),
 
-      complete: () => console.info('Petición de random contact completada'),
+      complete: () => console.info('Petición completada'),
     });
   }
   //?Filtro
