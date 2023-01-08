@@ -19,4 +19,13 @@ h3 {
   font-size: 36px;
   padding: 0.5rem 0rem;
   color: #7878b4;
+  text-shadow: 0 0 8px #171738;
+
+}
+
+@media (max-width: 820px) {
+  .container-titulo {
+    width: auto;
+
+  }
 }

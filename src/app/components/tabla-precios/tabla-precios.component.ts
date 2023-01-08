@@ -13,11 +13,19 @@ export class TablaPreciosComponent implements OnInit  {
   //? Tabla
   dataSource: ICoins[] = [];
   displayedColumns: string[] = [
-    'image',
+    'image', 
     'name',
     'current_price',
     'price_change_percentage_24h',
-    'total_volume',
+ 'total_volume',
+  ];
+  //? Tabla responsible 
+  displayedColumnsRes: string[] = [
+    'image', 
+    'name',
+    'current_price',
+    'price_change_percentage_24h',
+ 
   ];
 
   //?Filtro

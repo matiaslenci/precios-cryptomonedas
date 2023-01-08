@@ -17,11 +17,11 @@ footer {
 
 .texto-footer {
   color: #7878b4;
+  cursor: default;
 }
 
 .logo-github {
-  padding: 1rem;
-  
+  padding: 0.5rem;
 }
 
 .enlace-github {
@@ -34,4 +34,23 @@ footer {
   color: #ffff;
   border-bottom: 2px solid #ffff;
   text-shadow: 0 0 5px white;
+}
+
+.enlace-responsive {
+  display: none;
+}
+
+/* CELULAR */
+@media (max-width: 820px) {
+
+  .container-footer{
+    display: none;
+  }
+
+  .enlace-responsive {
+    display: block;
+  }
+  .logo-github-responsive:hover {
+    cursor: pointer;
+  }
 }
