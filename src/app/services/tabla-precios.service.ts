@@ -31,6 +31,5 @@ export class TablaPreciosService {
         'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false'
       )
       .pipe(retry(2));
-    //TODO: Agregarle catchError(throwError) a obtenerListaCoins() sin que de error por el observable
   }
 }
